@@ -1,0 +1,5 @@
+config SHIELD_KNUFTBOARD_LEFT
+    def_bool $(shields_list_contains,knurftboard_left)
+
+config SHIELD_KNUFTBOARD_RIGHT
+    def_bool $(shields_list_contains,knurftboard_right)
